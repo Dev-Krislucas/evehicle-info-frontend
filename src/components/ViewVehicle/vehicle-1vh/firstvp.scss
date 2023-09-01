@@ -23,6 +23,15 @@
         align-self: center;
        
     }
+    #colorRed{
+        color:#ee1415;
+       }
+       #colorGrey{
+        color:gray;
+       }
+       #font-big{
+        font-size:18px;
+       }
 }
 
 @include respond(laptop){

@@ -15,6 +15,15 @@
     width: 400px;
     align-self: center;
   }
+  #colorRed {
+    color: #ee1415;
+  }
+  #colorGrey {
+    color: gray;
+  }
+  #font-big {
+    font-size: 18px;
+  }
 }
 @media (min-width: 75.1em) and (max-width: 112.5em) {
   .first-vp {
