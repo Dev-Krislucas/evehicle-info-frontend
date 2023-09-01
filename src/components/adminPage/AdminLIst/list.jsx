@@ -24,7 +24,7 @@ let List = ()=>{
         
         await axios.delete(`https://kristhomas.onrender.com/admin/delete/${id}`).then(res=>console.log(res.data));
         
-        window.location.assign("http://localhost:3000/admin/seelist");
+        window.location.assign("https://krislucasthomas.netlify.app/admin/seelist");
         loadData();
   
       }

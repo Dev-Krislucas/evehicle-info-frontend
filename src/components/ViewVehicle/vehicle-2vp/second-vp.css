@@ -1,0 +1,48 @@
+@media (min-width: 0em) and (max-width: 37.5em) {
+  .salientFeatures {
+    padding: 2% 12%;
+    margin-top: 30px;
+  }
+  #table-red-text {
+    color: #ee1415;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 1.3px;
+  }
+  #table-value {
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-left: 6px;
+  }
+}
+@media (min-width: 75.1em) and (max-width: 112.5em) {
+  .salientFeatures {
+    padding: 2% 18%;
+  }
+  #table-red-text {
+    color: #ee1415;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1.3px;
+  }
+  #table-value {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 112.6em) {
+  .salientFeatures {
+    padding: 2% 20%;
+  }
+  #table-red-text {
+    color: #ee1415;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  #table-value {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+  }
+}/*# sourceMappingURL=second-vp.css.map */

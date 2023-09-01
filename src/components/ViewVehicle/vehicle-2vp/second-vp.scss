@@ -1,0 +1,60 @@
+@import ".././../mixins.scss";
+
+@include respond(phone){
+    .salientFeatures{
+        // border:2px solid;
+        padding:2% 12%;
+        margin-top:30px;
+    }
+    #table-red-text{
+        color:#ee1415;
+        font-weight: bold;
+        font-size:10px;
+        letter-spacing:1.3px;
+        
+    }
+    #table-value{
+        font-size:15px;
+        letter-spacing:2px;
+        margin-left: 6px;
+    }
+
+}
+@include respond(laptop){
+    .salientFeatures{
+        // border:2px solid;
+        padding: 2% 18%;
+    }
+    #table-red-text{
+        color:#ee1415;
+        font-weight: bold;
+        font-size:12px;
+        letter-spacing:1.3px;
+        
+    }
+    #table-value{
+        font-size:20px;
+        letter-spacing:2px;
+        margin-left: 10px;
+    }
+
+}
+@include respond(desktop){
+    .salientFeatures{
+        // border:2px solid;
+        padding: 2% 20%;
+    }
+    #table-red-text{
+        color:#ee1415;
+        font-weight: bold;
+        font-size:12px;
+        
+    }
+    #table-value{
+        font-size:20px;
+        letter-spacing:2px;
+        margin-left: 10px;
+    }
+
+
+} 
