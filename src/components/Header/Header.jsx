@@ -12,7 +12,7 @@ let Header =()=>{
         <div className="headerLinks">
             <a href="#">E Bikes</a>
             <a href="#">E Scooter</a>
-            <Link to ="/admin"></Link>
+            <Link to ="/admin">Admin</Link>
 
         </div>
 
