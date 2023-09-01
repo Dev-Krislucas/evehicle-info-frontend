@@ -1,0 +1,44 @@
+@import "../../mixins.scss";
+@include respond(phone){
+    .carousel-div{
+    
+        height: 100%;
+        width: 100%;
+        // border: 10px solid ;
+        text-align: center;
+ 
+    } 
+    #carousel-image{
+       width: 100%;
+    }
+
+
+}
+@include respond(laptop){
+    .carousel-div{
+    
+        height: 100%;
+        width: 100%;
+        // border: 10px solid ;
+        text-align: center;
+ 
+    } 
+    #carousel-image{
+       width: 60%;
+    }
+
+}
+@include respond(desktop){
+    .carousel-div{
+    
+        height: 100%;
+        width: 100%;
+        // border: 10px solid ;
+        text-align: center;
+ 
+    } 
+    #carousel-image{
+       width: 60%;
+    }
+
+}

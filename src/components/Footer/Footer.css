@@ -1,0 +1,121 @@
+@media (min-width: 0em) and (max-width: 37.5em) {
+  .Footer_class {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  #footer-logo {
+    height: 60px;
+    margin-bottom: 30px;
+  }
+  .child_2 {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  li {
+    color: #ff1415;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  .child_1 {
+    flex: 1;
+    padding: 3%;
+  }
+  .ul_div > * {
+    margin-bottom: 20px;
+  }
+  #footer-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  #footer-li {
+    color: #ff1415;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 75.1em) and (max-width: 112.5em) {
+  .Footer_class {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+  }
+  .child_1 {
+    flex: 1;
+    padding: 2%;
+  }
+  #footer-logo {
+    height: 80px;
+    margin-bottom: 30px;
+  }
+  .child_2 {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer_heading {
+    color: #fff;
+  }
+  li {
+    color: #ff1415;
+  }
+  .ul_div > * {
+    margin-bottom: 30px;
+  }
+  #footer-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  #footer-li {
+    color: #ff1415;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 112.6em) {
+  .Footer_class {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+  }
+  .child_1 {
+    flex: 1;
+    padding: 2%;
+  }
+  #footer-logo {
+    height: 80px;
+    margin-bottom: 30px;
+  }
+  .child_2 {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer_heading {
+    color: #fff;
+  }
+  li {
+    color: #ff1415;
+  }
+  .ul_div > * {
+    margin-bottom: 30px;
+  }
+  #footer-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  #footer-li {
+    color: #ff1415;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+}/*# sourceMappingURL=Footer.css.map */

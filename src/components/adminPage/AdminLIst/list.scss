@@ -1,0 +1,29 @@
+@import "../../mixins.scss";
+@include respond(laptop){
+
+}
+@include respond(desktop){
+    .List{
+        // border:2px solid;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #card-parent{
+        align-self: center;
+        // border: 2px solid;
+        width:400px;
+        height: 400px;
+    }
+    #fluid-image{
+        height: 200px;
+        width:100%;
+    }
+    #action-button{
+        height:40px;
+        width:100px;
+        margin:10px;
+    }
+}
