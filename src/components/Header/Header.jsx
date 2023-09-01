@@ -1,6 +1,7 @@
 // import logo from "images/logo.jpg";
 //Importiing image in html style from (read from directory public/....)
 import "./header.css";
+import {Link} from "react-router-dom";
 let Header =()=>{
     return(
         <div className="header_container">
@@ -11,7 +12,7 @@ let Header =()=>{
         <div className="headerLinks">
             <a href="#">E Bikes</a>
             <a href="#">E Scooter</a>
-            <a href="#">4 Wheelers</a>
+            <Link to ="/admin"></Link>
 
         </div>
 
