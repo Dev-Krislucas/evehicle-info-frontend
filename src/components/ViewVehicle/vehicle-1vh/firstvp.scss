@@ -1,6 +1,28 @@
 @import "../../mixins.scss";
 @include respond(phone){
-
+    .first-vp{
+        // border:1px solid;
+        display:flex;
+        flex-direction: column;
+        // paddinG:2.5% 8%;
+        // margin-bottom: 30px;
+        justify-content: space-evenly;
+    }
+    .imageDiv{
+        
+        // border:2px solid;
+        text-align:center;
+    }
+    .textDiv{
+        // border:2px solid;
+        padding:3% 8%;
+    }
+    #product-page-description{
+        height:200px;
+        width:400px;
+        align-self: center;
+       
+    }
 }
 
 @include respond(laptop){

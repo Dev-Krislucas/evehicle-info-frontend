@@ -1,3 +1,21 @@
+@media (min-width: 0em) and (max-width: 37.5em) {
+  .first-vp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .imageDiv {
+    text-align: center;
+  }
+  .textDiv {
+    padding: 3% 8%;
+  }
+  #product-page-description {
+    height: 200px;
+    width: 400px;
+    align-self: center;
+  }
+}
 @media (min-width: 75.1em) and (max-width: 112.5em) {
   .first-vp {
     display: flex;
