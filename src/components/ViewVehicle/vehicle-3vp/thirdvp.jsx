@@ -66,10 +66,10 @@ let ThirdVp = ()=>{
                 <Card.Img src={vehicle.imgSrc} id="similar-match-image" fluid></Card.Img>
                 <Card.Body className="similar-match-card-body">
                     <Card.Title>{vehicle.name}</Card.Title>
-                    <Card.Text id="details-card-price">
+                    <Card.Text id="similar-match-card-price">
                     ₹.{vehicle.price} - {Number(vehicle.price)+25000}
                     </Card.Text>
-                    <Link to={`/user/${vehicle._id}`}><Button variant="outline-danger" id="details-card-button">View Product Details</Button></Link>
+                    <Link to={`/user/${vehicle._id}`}><Button variant="outline-danger" id="similar-match-button">View Product Details</Button></Link>
       </Card.Body>
 
 
