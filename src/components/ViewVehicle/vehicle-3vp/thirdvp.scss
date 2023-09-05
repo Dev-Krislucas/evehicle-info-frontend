@@ -1,0 +1,45 @@
+@import "../../mixins.scss";
+
+
+@include respond(phone){
+
+}
+@include respond(laptop){
+
+}
+
+@include respond(desktop){
+    .ThirdVp{
+        // border:2px solid;
+        padding:2% 8%;
+
+    }
+    .similar-match-card{
+        width: 300px;
+        height:350px;
+        text-align: left;
+        // padding:1%;
+        box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.75);
+        margin:15px;
+        // display: flex;
+        border-radius: 10px;
+        // border:20px solid;
+    }
+    .similar-match-div{
+        display: flex;
+        padding: 1% 8%;
+        // border: 2px solid;
+        
+    }
+    #similar-match-image{
+        height:50%;
+        width:100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        // border:2px solid;
+    }
+    .similar-match-card-body{
+        padding:5% 8%;
+    }
+
+}
