@@ -20,7 +20,7 @@
 }
 @media (min-width: 75.1em) and (max-width: 112.5em) {
   .scooter {
-    padding: 5%;
+    padding: 2% 5%;
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -58,7 +58,7 @@
 }
 @media (min-width: 112.6em) {
   .scooter {
-    padding: 5%;
+    padding: 2% 5%;
     display: flex;
     flex-direction: column;
     width: 70%;

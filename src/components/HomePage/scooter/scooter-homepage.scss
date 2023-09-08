@@ -33,7 +33,7 @@
 @include respond(laptop){
     .scooter{
         // border:2px solid;
-        padding:5%;
+        padding:2% 5%;
         display: flex;
         flex-direction: column;
         width:70%;
@@ -51,7 +51,7 @@
     }
     .flex-row{
         display:flex;
-        // border:2px solid;
+        // border:2px solid; 
 
     }
     #vehicle-img{
@@ -81,7 +81,7 @@
 @include respond(desktop){
     .scooter{
         // border:2px solid;
-        padding:5%;
+        padding:2% 5%;
         display: flex;
         flex-direction: column;
         width:70%;

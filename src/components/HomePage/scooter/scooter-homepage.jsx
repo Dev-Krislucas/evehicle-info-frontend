@@ -16,7 +16,7 @@ let Scooter = ()=>{
         let allScooters = await axios.get(`https://kristhomas.onrender.com/admin/get`);
         let unfilteredArray = allScooters.data.vehicles;
         let filteredArray = unfilteredArray.filter((s)=>{
-            return s.vehicleType =='scooter';
+            return s.vehicleType ==='scooter';
         });
 
         //

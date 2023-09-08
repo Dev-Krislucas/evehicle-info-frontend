@@ -1,0 +1,100 @@
+@media (min-width: 75.1em) and (max-width: 112.5em) {
+  .blog-form {
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+    background-color: #eee;
+    justify-content: center;
+    text-align: center;
+  }
+  #input-form {
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 50%;
+    border: 1px dotted #ee1415;
+    align-self: center;
+    transition: all 0.1s;
+  }
+  #input-form-lg {
+    height: 100px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 50%;
+    border: 1px dotted #ee1415;
+    align-self: center;
+    transition: all 0.1s;
+  }
+  #input-form :focus {
+    border: 2px solid #ee1415;
+  }
+  #form-button {
+    width: 10%;
+    align-self: center;
+    margin-top: 50px;
+    color: #fff;
+    margin-right: 20px;
+  }
+  ::-moz-placeholder {
+    opacity: 0.6;
+    margin-left: 50px;
+    font-size: 13px;
+    color: #ee1415;
+  }
+  ::placeholder {
+    opacity: 0.6;
+    margin-left: 50px;
+    font-size: 13px;
+    color: #ee1415;
+  }
+}
+@media (min-width: 112.6em) {
+  .blog-form {
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+    background-color: #eee;
+    justify-content: center;
+    text-align: center;
+  }
+  #input-form {
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 50%;
+    border: 1px dotted #ee1415;
+    align-self: center;
+    transition: all 0.1s;
+  }
+  #input-form-lg {
+    height: 100px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 50%;
+    border: 1px dotted #ee1415;
+    align-self: center;
+    transition: all 0.1s;
+  }
+  #input-form :focus {
+    border: 2px solid #ee1415;
+  }
+  #form-button {
+    width: 10%;
+    align-self: center;
+    margin-top: 50px;
+    color: #fff;
+    margin-right: 20px;
+  }
+  ::-moz-placeholder {
+    opacity: 0.6;
+    margin-left: 50px;
+    font-size: 13px;
+    color: #ee1415;
+  }
+  ::placeholder {
+    opacity: 0.6;
+    margin-left: 50px;
+    font-size: 13px;
+    color: #ee1415;
+  }
+}/*# sourceMappingURL=updateBlog.css.map */

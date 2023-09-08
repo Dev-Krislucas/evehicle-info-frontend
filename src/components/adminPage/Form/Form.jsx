@@ -55,6 +55,7 @@ let Form = ()=>{
         <div className="flex-col">
         <Button type="submit" variant="danger" onClick={submitVehicle} id="form-button">Add Vehicle +</Button>
         <Link to="/admin/seelist"><Button type="submit" variant="warning"  id="form-button">See List</Button></Link>
+        <Link to="/admin/createblog"><Button variant="secondary" id="form-button"> Create Blog</Button></Link>
         </div>
 
 

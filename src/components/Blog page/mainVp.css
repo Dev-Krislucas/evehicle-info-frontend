@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@300&display=swap");
+@media (min-width: 0em) and (max-width: 37.5em) {
+  .main-vp {
+    padding: 3% 10%;
+    text-align: center;
+    background-color: #eee;
+  }
+  #blog-heading {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 3px;
+    font-size: 25px;
+  }
+  #blog-mainSubheading {
+    color: #ee1415;
+    font-size: 18px;
+  }
+  .blog-head {
+    margin-bottom: 60px;
+  }
+  .blog-body {
+    width: 100%;
+    align-self: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: left;
+    margin-bottom: 70px;
+  }
+  #blog-image {
+    height: 200px;
+    width: 100%;
+    align-self: center;
+  }
+}
+@media (min-width: 75.1em) and (max-width: 112.5em) {
+  .main-vp {
+    padding: 3% 10%;
+    text-align: center;
+    background-color: #eee;
+  }
+  #blog-heading {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 3px;
+  }
+  #blog-mainSubheading {
+    color: #ee1415;
+  }
+  .blog-head {
+    margin-bottom: 100px;
+  }
+  .blog-body {
+    width: 70%;
+    align-self: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: left;
+    margin-bottom: 70px;
+  }
+  #blog-image {
+    height: 300px;
+    width: 400px;
+    align-self: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media (min-width: 112.6em) {
+  .main-vp {
+    padding: 3% 10%;
+    text-align: center;
+    background-color: #eee;
+  }
+  #blog-heading {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 3px;
+  }
+  #blog-mainSubheading {
+    color: #ee1415;
+  }
+  .blog-head {
+    margin-bottom: 100px;
+  }
+  .blog-body {
+    width: 70%;
+    align-self: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: left;
+    margin-bottom: 70px;
+  }
+  #blog-image {
+    height: 300px;
+    width: 400px;
+    align-self: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+}/*# sourceMappingURL=mainVp.css.map */
