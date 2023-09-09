@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import {Link} from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-
+import "./blog-list.css";
 let BlogList = ()=>{
     const [blogList,setBlogList] = useState([]);
     const {id} = useParams();
@@ -39,10 +39,10 @@ let loadBlogs = async()=>{
 
 {
 blogList.map((d)=>(
-    <Card id="card-parent">
+    <Card id="blog-card-parent">
                         <Card.Img variant="top" src={d.coverImage} fluid id="fluid-image"/>
                         <Card.Body>
-                        <Card.Title>{d.name}</Card.Title>
+                        <Card.Title>{d.mainHeading}</Card.Title>
                         <Button variant="danger" id="action-button" onClick={()=>{deleteVehicle(d._id)}}>Delete</Button>
                         <Link to={`/admin/blog/update/${d._id}`}><Button variant="warning" id="action-button">Update</Button></Link>
                         </Card.Body>

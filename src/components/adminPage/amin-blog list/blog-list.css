@@ -1,0 +1,40 @@
+@media (min-width: 0em) and (max-width: 37.5em) {
+  .blog-list {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 2%;
+  }
+  #blog-card-parent {
+    width: 300px;
+    margin-bottom: 30px;
+    align-self: center;
+  }
+}
+@media (min-width: 75.1em) and (max-width: 112.5em) {
+  .blog-list {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  #blog-card-parent {
+    width: 350px;
+    margin-bottom: 30px;
+    align-self: center;
+  }
+}
+@media (min-width: 112.6em) {
+  .blog-list {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  #blog-card-parent {
+    width: 350px;
+    margin-bottom: 30px;
+    align-self: center;
+  }
+}/*# sourceMappingURL=blog-list.css.map */

@@ -34,6 +34,7 @@ let UpdateBlog =()=>{
         e.preventDefault();
         console.log(blog);
         await axios.patch(`https://kristhomas.onrender.com/user/blogs/id/${id}`,blog).then(res=> console.log(res.data)).catch(err =>console.log(err));
+        alert("Blog Updated");
         setBlog({
            category: "",
 		    coverImage: "",

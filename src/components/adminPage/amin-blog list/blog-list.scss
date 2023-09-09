@@ -1,0 +1,47 @@
+@import "../../mixins.scss";
+
+@include respond(phone){
+    .blog-list{
+        // border:2px solid;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding:5% 2%; 
+    }
+    #blog-card-parent{
+        width:300px;
+        margin-bottom: 30px;
+        align-self: center;
+    }
+
+}
+@include respond(laptop){
+    .blog-list{
+        // border:2px solid;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    #blog-card-parent{
+        width:350px;
+        margin-bottom: 30px;
+        align-self: center;
+    }
+
+}
+@include respond(desktop){
+    .blog-list{
+        // border:2px solid;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    #blog-card-parent{
+        width:350px;
+        margin-bottom: 30px;
+        align-self: center;
+    }
+}
