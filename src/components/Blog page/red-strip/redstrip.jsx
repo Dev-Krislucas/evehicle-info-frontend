@@ -7,16 +7,14 @@ import { useEffect,useState } from "react";
 
 
 let RedStrip= ()=>{
-    const [latest,setLatest] = useState({
-        mainHeading:""
-    })
+    const [latest,setLatest] = useState([]);
 
 
     //
     let loadData = async()=>{
         let data = await axios.get('https://kristhomas.onrender.com/user/blogs/all/allblogs');
         
-        setLatest(data.data.allBlogs.reverse()[0].mainHeading);
+        setLatest(data.data.allBlogs.reverse()[0]);
         console.log("red strip: ",latest);
     }
 
@@ -25,7 +23,7 @@ let RedStrip= ()=>{
         loadData();
         },[]);
     return <div className="red-strip">
-        <h6> <marquee width="100%" direction="right" height="100px"><span id="boldandbig">Latest: </span><span id="notbig">{latest}</span></marquee></h6>
+        <h6> <marquee width="100%" direction="right" height="100px"><span id="boldandbig">Latest: </span><span id="notbig">{latest.mainHeading}</span></marquee></h6>
 
 
 

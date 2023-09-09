@@ -31,7 +31,7 @@ function App() {
       <Route path="/admin/blog/update/:id" element ={<MainUpdateBlog/>} />
       <Route path="/user/:id" element={<ViewVehicle/>} />
       <Route path="/user/blogs/:tag" element={<Main_BlogsByTag/>} />
-      <Route path='user/blogs/id/:id' element={<BlogsPage/>} />
+      <Route path='/user/blogs/id/:id' element={<BlogsPage/>} />
     </Routes> 
     </BrowserRouter>
   );
