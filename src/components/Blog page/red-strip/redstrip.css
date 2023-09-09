@@ -1,0 +1,40 @@
+@media (min-width: 0em) and (max-width: 37.5em) {
+  .red-strip {
+    background-color: #ee1415;
+    height: 30px;
+    color: #fff;
+    margin: auto;
+  }
+  #boldandbig {
+    font-weight: bold;
+    margin-right: 5px;
+    font-size: 12px;
+  }
+  #notbig {
+    font-size: 12px;
+  }
+}
+@media (min-width: 75.1em) and (max-width: 112.5em) {
+  .red-strip {
+    background-color: #ee1415;
+    height: 30px;
+    color: #fff;
+    margin: auto;
+  }
+  #boldandbig {
+    font-weight: bold;
+    margin-right: 8px;
+  }
+}
+@media (min-width: 112.6em) {
+  .red-strip {
+    background-color: #ee1415;
+    height: 30px;
+    color: #fff;
+    margin: auto;
+  }
+  #boldandbig {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+}/*# sourceMappingURL=redstrip.css.map */
